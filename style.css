@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f4f4f9;
+    padding: 2rem;
+    text-align: center;
+}
+
+button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ddd;
+    margin-top: 2rem;
+}
+
+.content {
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    gap: 10px; /* Ajoute un petit espace entre l'image et le bouton */
+    margin-top: 20px;
+}
+
+.content img {
+    max-width: 25%;
+    height: auto;
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+.content button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+}
+
+.content button:hover {
+    background-color: #3700b3;
+}
+
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.testimonials h2 {
+    color: #6200ea;
+    margin-bottom: 1rem;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    color: #555;
+    margin: 1rem auto;
+    max-width: 600px;
+}
+
+.testimonials cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.button {
+    display: inline-block;
+    background-color: #6200ea;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #3700b3;
+}
+
+.payment-form {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.payment-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.payment-form button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #6200ea;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payment-form button:hover {
+    background-color: #3700b3;
+}
