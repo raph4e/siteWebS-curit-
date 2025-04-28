@@ -1,6 +1,26 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+main.main-content {
+    flex-direction: column; /* Organise les éléments en colonne */
+    gap: 1.5rem; /* Ajoute un espacement entre les éléments */
+}
+
+.cta-section {
+    flex-direction: column; /* Organise l'image et le bouton en colonne */
+    gap: 1rem; /* Ajoute un espacement entre l'image et le bouton */
+    text-align: center; /* Centre le contenu */
+}
+
+.cta-section img {
+    width: 5000px; /* Augmente la largeur de l'image */
+    height: auto; /* Maintient les proportions de l'image */
+}
+
+.body_paiement {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5b228b21b27e39f258f12ae0/1529005089089-OPLG6NY4FBCCS6CYFDH5/image-asset.jpeg'); /* Remplacez 'background.jpg' par le chemin de votre image */
+    background-size: cover; /* L'image couvre tout l'écran */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center; /* Centre l'image */
+    margin: 0; /* Supprime les marges par défaut */
+    font-family: Arial, sans-serif; /* Assure une bonne lisibilité */
     padding: 0;
     background-color: #f4f4f9;
     color: #333;
@@ -18,7 +38,6 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 80vh;
-    background-color: #f4f4f9;
     padding: 2rem;
     text-align: center;
 }
@@ -119,7 +138,7 @@ footer {
     max-width: 400px;
     margin: 2rem auto;
     padding: 2rem;
-    background-color: #ffffff;
+    background-color: transparent; /* Rendre le fond transparent */
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
